@@ -39,6 +39,7 @@ if __name__ == '__main__':
         "models/MFR/unimernet_small_2501/*",
         "models/TabRec/TableMaster/*",
         "models/TabRec/StructEqTable/*",
+        "models/OCR/paddleocr_torch/*",
     ]
     model_dir = snapshot_download('opendatalab/PDF-Extract-Kit-1.0', allow_patterns=mineru_patterns)
 
